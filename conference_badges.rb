@@ -2,4 +2,6 @@ def badge_maker
   
 end
 
-def
+def badge_maker
+  
+end
