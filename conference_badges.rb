@@ -7,7 +7,8 @@ def batch_badge_creator(array)
 end
 
 def assign_rooms(array)
-  array.each_with_index do |name|
+  array.each_with_index do |name, i|
+    puts
 end
 
 assign_rooms(["Steve"])).to eq(["Hello, Steve! You'll be assigned to room 1!"])
