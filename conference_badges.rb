@@ -14,6 +14,6 @@ def assign_rooms(array)
   rooms
 end
 
-def printer
-
-assign_rooms(["Steve"])).to eq(["Hello, Steve! You'll be assigned to room 1!"])
+def printer(array)
+  batch_badge_creator(array).each {|el| puts el}
+end
